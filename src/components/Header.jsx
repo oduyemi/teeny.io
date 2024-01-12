@@ -30,9 +30,9 @@ import { Link } from "react-router-dom";
                 </Typography>
               </Link>
               
-              <Link to="/integration" className="mobile-menu-link">
+              <Link to="/stats" className="mobile-menu-link">
                 <Typography variant="h6" sx={{fontWeight: "light" }} paragraph className="text-sm">
-                  Integration
+                  Statistics
                 </Typography>
               </Link>
               <Link
@@ -108,10 +108,10 @@ import { Link } from "react-router-dom";
             </li>
             <li>
               <Link
-                to="/integration">
+                to="/stats">
                 <Typography variant="h6" paragraph sx={{fontWeight: "light", fontSize: "16px" }}
                 className="hover:bg-gray-50 border-b border-gray-100 md:hover:bg-transparent md:border-0 block pl-3 pr-4 py-2 md:p-0">
-                  Integration
+                  Statistics
                 </Typography>
               </Link>
             </li>

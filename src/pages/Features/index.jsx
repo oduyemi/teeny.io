@@ -1,10 +1,14 @@
 import React from "react";
+import { Feature } from "../../components/Features";
+import { Box } from "@mui/material";
 
 
 const Features = () => {
     return(
         <>
-            <div>This is a page</div>
+            <Box>
+                <Feature />
+            </Box>
         </>
     );
 };
