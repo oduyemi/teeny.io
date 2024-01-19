@@ -1,5 +1,7 @@
 # teeny.io
 
+## Frontend (React JS):
+
 A web application that allows users to shorten URLs by pasting a long URL into the it's platform and a shorter URL gets automatically generated. The shortened URL is designed to be as short as possible, making it easy to share on social media or through other channels.
 
 ## Custom URLs:
@@ -32,8 +34,11 @@ You may also see any lint errors in the console.
 
 ### Deployment
 
+
 This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+## Backend (Node JS, Express):
