@@ -6,7 +6,7 @@ import Features from "../pages/Features/index";
 import Statistics from "../pages/Stats/index";
 import Contact from "../pages/Contact/index";
 import Login from "../pages/Login/index";
-import Register from "../pages/Register/index";
+import Shortner from "../pages/Shortner/index";
 
 export const Navigation = () => {
     return (
@@ -18,7 +18,7 @@ export const Navigation = () => {
                 <Route path="/stats" element={<Statistics />} />
                 <Route path="/contact" element={<Contact />} />
                 <Route path="/login" element={<Login />} />
-                <Route path="/register" element={<Register />}  />
+                <Route path="/shorten-link" element={<Shortner />}  />
             </Routes>
         </BrowserRouter>
     );

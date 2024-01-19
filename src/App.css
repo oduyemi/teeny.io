@@ -35,6 +35,10 @@ body{
     left:3%;
 } */
 
+.link{
+  position: relative;
+  left: 17%;
+}
 
 
 
@@ -120,9 +124,9 @@ body{
   .header-extras{
     display:none;
   }
-  /* .mobile-items{
-    display: flex;
-    align-items: center;
-  } */
+  .link{
+    position: relative;
+    left: 0;
+  }
 }
 

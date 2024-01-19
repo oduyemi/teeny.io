@@ -1,11 +1,12 @@
 import React from "react";
-
+import { Box } from "@mui/material";
+import { ContactUs } from "../../components/ContactUs";
 
 const Contact = () => {
     return(
-        <>
-            <div>This is a page</div>
-        </>
+        <Box>
+            <ContactUs />
+        </Box>
     );
 };
 

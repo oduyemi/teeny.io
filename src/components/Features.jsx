@@ -137,8 +137,8 @@ export const Feature = () => {
             </Box>
             </Container>
                 <Box maxWidth="xl" className="pl-6 text-center">
-                    <Link to="/register">
-                        <Button className="mt-4">Start For Free</Button>
+                    <Link to="/shorten-link">
+                        <Button className="mt-4">Shorten Your Link</Button>
                     </Link>
                 </Box>
             </div>

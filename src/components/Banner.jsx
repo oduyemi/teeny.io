@@ -23,7 +23,7 @@ export const Banner = () => {
                         Share them anywhere. Track how well it&apos;s working.
                     </Typography>
                     <Box maxWidth="sm" className="pl-6">
-                        <Link to="/register">
+                        <Link to="/shorten-link">
                             <Button className="mt-4">Start For Free</Button>
                         </Link>
                         <Typography variant="h6" paragraph

@@ -126,7 +126,7 @@ import { Link } from "react-router-dom";
             </li>
           </ul>
           <Box className="header-extras mt-[-3.4%] flex items-center justify-between space-x-4 pr-14">
-              <Link to="/register">
+              <Link to="/shorten-link">
                 <Button variant="outline" className="px-6">Get Started</Button>
             </Link>
           </Box>

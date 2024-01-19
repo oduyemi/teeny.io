@@ -1,6 +1,4 @@
 import { Box, Card, Typography, Grid, Container } from "@mui/material";
-import Icon from '@mdi/react';
-import { mdiTrayArrowDown } from '@mdi/js';
 import Button from "./elements/Button";
 import { Link } from "react-router-dom";
 
@@ -8,7 +6,7 @@ import { Link } from "react-router-dom";
 
 export const Stats = () => {
     return(
-        <>
+        <Box className="container my-14 mx-auto md:px-6">
             <Container maxWidth="md" className="mt-14">
             <Typography
                 variant="h2"
@@ -90,6 +88,6 @@ export const Stats = () => {
                 </Grid>
             </Box>
             </Container> */}
-        </>
+        </Box>
     )
 }
